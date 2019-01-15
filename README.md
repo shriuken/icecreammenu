@@ -1,3 +1,5 @@
+I used React Boiler Plate to scaffold my project. below is part of the boilerplate from cloning the repo.
+
 <img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
 
 <br />
