@@ -1,0 +1,16 @@
+{
+  "flavors": [
+    {
+      "id": "0",
+      "name": "vanilla",
+      "price": 4.0,
+      "ingredients": "vanilla bean, milk, sugar, cream"
+    },
+    {
+      "id": "1",
+      "name": "chocolate",
+      "price": 4.0,
+      "ingredients": "cocoa powder, milk, sugar, salt"
+    }
+  ]
+}

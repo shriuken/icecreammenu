@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders negatively 1`] = `
+<Button__StyledButton
+  onClick={[MockFunction]}
+  positive={false}
+/>
+`;
+
+exports[`<Button /> renders positive 1`] = `
+<Button__StyledButton
+  onClick={[MockFunction]}
+  positive={true}
+/>
+`;

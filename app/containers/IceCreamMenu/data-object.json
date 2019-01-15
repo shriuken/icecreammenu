@@ -1,0 +1,25 @@
+{
+  "flavorsById": {
+    "0": {
+      "id": "0",
+      "name": "vanilla",
+      "price": 4.0,
+      "ingredients": "vanilla bean, milk, sugar, cream",
+      "active": true
+    },
+    "1": {
+      "id": "1",
+      "name": "chocolate",
+      "price": 4.0,
+      "ingredients": "cocoa powder, milk, sugar, salt",
+      "active": true
+    },
+    "2": {
+      "id": "2",
+      "name": "strawberry",
+      "price": 4.0,
+      "ingredients": "fresh strawberries, milk, cream",
+      "active": false
+    }
+  }
+}

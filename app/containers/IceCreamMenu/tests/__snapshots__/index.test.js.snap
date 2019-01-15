@@ -1,0 +1,2447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IceCreamMenu /> renders 1`] = `
+<IceCreamMenu
+  iceCreamMenu={Immutable.Map {}}
+  onAddFlavor={[MockFunction]}
+  onDeleteFlavor={[MockFunction]}
+  onEditFlavor={[MockFunction]}
+>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+    >
+      <SideEffect(NullComponent)
+        defer={true}
+        encodeSpecialCharacters={true}
+        meta={
+          Array [
+            Object {
+              "content": "Description of IceCreamMenu",
+              "name": "description",
+            },
+          ]
+        }
+        title="IceCreamMenu"
+        titleAttributes={Object {}}
+      >
+        <NullComponent
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": "Description of IceCreamMenu",
+                "name": "description",
+              },
+            ]
+          }
+          title="IceCreamMenu"
+          titleAttributes={Object {}}
+        />
+      </SideEffect(NullComponent)>
+    </HelmetWrapper>
+    <IceCreamMenu__Title>
+      <StyledComponent
+        forwardedClass={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "IceCreamMenu__Title-sc-1ez1eyo-0",
+              "isStatic": true,
+              "lastClassName": "fZLvWR",
+              "rules": Array [
+                "font-size:1.5em;text-align:center;",
+              ],
+            },
+            "displayName": "IceCreamMenu__Title",
+            "render": [Function],
+            "styledComponentId": "IceCreamMenu__Title-sc-1ez1eyo-0",
+            "target": "h1",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <h1
+          className="IceCreamMenu__Title-sc-1ez1eyo-0 fZLvWR"
+        >
+          Menu
+        </h1>
+      </StyledComponent>
+    </IceCreamMenu__Title>
+    <FlavorTable
+      flavors={Immutable.Map {}}
+      onDeleteFlavor={[MockFunction]}
+      onEditFlavor={[MockFunction]}
+    >
+      <ReactTable
+        AggregatedComponent={[Function]}
+        ExpanderComponent={[Function]}
+        FilterComponent={[Function]}
+        LoadingComponent={[Function]}
+        NoDataComponent={[Function]}
+        PadRowComponent={[Function]}
+        PaginationComponent={[Function]}
+        PivotValueComponent={[Function]}
+        ResizerComponent={[Function]}
+        TableComponent={[Function]}
+        TbodyComponent={[Function]}
+        TdComponent={[Function]}
+        TfootComponent={[Function]}
+        ThComponent={[Function]}
+        TheadComponent={[Function]}
+        TrComponent={[Function]}
+        TrGroupComponent={[Function]}
+        aggregatedKey="_aggregated"
+        className="-striped -highlight"
+        collapseOnDataChange={true}
+        collapseOnPageChange={true}
+        collapseOnSortingChange={true}
+        column={
+          Object {
+            "Aggregated": undefined,
+            "Cell": undefined,
+            "Expander": undefined,
+            "Filter": undefined,
+            "Footer": undefined,
+            "Header": undefined,
+            "Pivot": undefined,
+            "PivotValue": undefined,
+            "aggregate": undefined,
+            "className": "",
+            "filterAll": false,
+            "filterMethod": undefined,
+            "filterable": undefined,
+            "footerClassName": "",
+            "footerStyle": Object {},
+            "getFooterProps": [Function],
+            "getHeaderProps": [Function],
+            "getProps": [Function],
+            "headerClassName": "",
+            "headerStyle": Object {},
+            "minWidth": 100,
+            "resizable": undefined,
+            "show": true,
+            "sortMethod": undefined,
+            "sortable": undefined,
+            "style": Object {},
+          }
+        }
+        columns={
+          Array [
+            Object {
+              "accessor": [Function],
+              "id": "id",
+              "show": false,
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Flavor",
+              "accessor": [Function],
+              "id": "flavor",
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Price",
+              "accessor": [Function],
+              "id": "price",
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Ingredients",
+              "accessor": [Function],
+              "id": "ingredients",
+            },
+            Object {
+              "accessor": [Function],
+              "id": "active",
+              "show": false,
+            },
+            Object {
+              "Cell": [Function],
+              "accessor": [Function],
+              "id": "delete",
+            },
+          ]
+        }
+        data={Array []}
+        defaultExpanded={Object {}}
+        defaultFilterMethod={[Function]}
+        defaultFiltered={Array []}
+        defaultPageSize={10}
+        defaultResized={Array []}
+        defaultSortDesc={false}
+        defaultSortMethod={[Function]}
+        defaultSorted={Array []}
+        expanderDefaults={
+          Object {
+            "filterable": false,
+            "resizable": false,
+            "sortable": false,
+            "width": 35,
+          }
+        }
+        filterable={false}
+        freezeWhenExpanded={false}
+        getLoadingProps={[Function]}
+        getNoDataProps={[Function]}
+        getPaginationProps={[Function]}
+        getProps={[Function]}
+        getResizerProps={[Function]}
+        getTableProps={[Function]}
+        getTbodyProps={[Function]}
+        getTdProps={[Function]}
+        getTfootProps={[Function]}
+        getTfootTdProps={[Function]}
+        getTfootTrProps={[Function]}
+        getTheadFilterProps={[Function]}
+        getTheadFilterThProps={[Function]}
+        getTheadFilterTrProps={[Function]}
+        getTheadGroupProps={[Function]}
+        getTheadGroupThProps={[Function]}
+        getTheadGroupTrProps={[Function]}
+        getTheadProps={[Function]}
+        getTheadThProps={[Function]}
+        getTheadTrProps={[Function]}
+        getTrGroupProps={[Function]}
+        getTrProps={[Function]}
+        groupedByPivotKey="_groupedByPivot"
+        indexKey="_index"
+        loading={false}
+        loadingText="Loading..."
+        multiSort={true}
+        nestingLevelKey="_nestingLevel"
+        nextText="Next"
+        noDataText="No rows found"
+        ofText="of"
+        onFetchData={[Function]}
+        originalKey="_original"
+        pageSizeOptions={
+          Array [
+            5,
+            10,
+            20,
+            25,
+            50,
+            100,
+          ]
+        }
+        pageText="Page"
+        pivotDefaults={Object {}}
+        pivotIDKey="_pivotID"
+        pivotValKey="_pivotVal"
+        previousText="Previous"
+        resizable={true}
+        resolveData={[Function]}
+        rowsText="rows"
+        showPageJump={true}
+        showPageSizeOptions={true}
+        showPagination={true}
+        showPaginationBottom={true}
+        showPaginationTop={false}
+        sortable={true}
+        style={Object {}}
+        subRowsKey="_subRows"
+      >
+        <div
+          className="ReactTable -striped -highlight"
+          style={Object {}}
+        >
+          <TableComponent
+            className=""
+          >
+            <div
+              className="rt-table"
+              role="grid"
+            >
+              <Thead
+                className="-header"
+                style={
+                  Object {
+                    "minWidth": "400px",
+                  }
+                }
+              >
+                <div
+                  className="rt-thead -header"
+                  style={
+                    Object {
+                      "minWidth": "400px",
+                    }
+                  }
+                >
+                  <TrComponent>
+                    <div
+                      className="rt-tr"
+                      role="row"
+                    >
+                      <ThComponent
+                        className="rt-resizable-header -cursor-pointer"
+                        key="0-flavor"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th rt-resizable-header -cursor-pointer"
+                          onClick={[Function]}
+                          role="columnheader"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                          tabIndex="-1"
+                        >
+                          <div
+                            className="rt-resizable-header-content"
+                          >
+                            Flavor
+                          </div>
+                          <Resizer
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="rt-resizer"
+                              onMouseDown={[Function]}
+                              onTouchStart={[Function]}
+                            />
+                          </Resizer>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className="rt-resizable-header -cursor-pointer"
+                        key="1-price"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th rt-resizable-header -cursor-pointer"
+                          onClick={[Function]}
+                          role="columnheader"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                          tabIndex="-1"
+                        >
+                          <div
+                            className="rt-resizable-header-content"
+                          >
+                            Price
+                          </div>
+                          <Resizer
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="rt-resizer"
+                              onMouseDown={[Function]}
+                              onTouchStart={[Function]}
+                            />
+                          </Resizer>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className="rt-resizable-header -cursor-pointer"
+                        key="2-ingredients"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th rt-resizable-header -cursor-pointer"
+                          onClick={[Function]}
+                          role="columnheader"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                          tabIndex="-1"
+                        >
+                          <div
+                            className="rt-resizable-header-content"
+                          >
+                            Ingredients
+                          </div>
+                          <Resizer
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="rt-resizer"
+                              onMouseDown={[Function]}
+                              onTouchStart={[Function]}
+                            />
+                          </Resizer>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className="rt-resizable-header -cursor-pointer"
+                        key="3-delete"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th rt-resizable-header -cursor-pointer"
+                          onClick={[Function]}
+                          role="columnheader"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                          tabIndex="-1"
+                        >
+                          <div
+                            className="rt-resizable-header-content"
+                          />
+                          <Resizer
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="rt-resizer"
+                              onMouseDown={[Function]}
+                              onTouchStart={[Function]}
+                            />
+                          </Resizer>
+                        </div>
+                      </ThComponent>
+                    </div>
+                  </TrComponent>
+                </div>
+              </Thead>
+              <Tbody
+                className=""
+                style={
+                  Object {
+                    "minWidth": "400px",
+                  }
+                }
+              >
+                <div
+                  className="rt-tbody"
+                  style={
+                    Object {
+                      "minWidth": "400px",
+                    }
+                  }
+                >
+                  <TrGroupComponent
+                    key="0"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -odd"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -odd"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="1"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -even"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -even"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="2"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -odd"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -odd"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="3"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -even"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -even"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="4"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -odd"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -odd"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="5"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -even"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -even"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="6"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -odd"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -odd"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="7"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -even"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -even"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="8"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -odd"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -odd"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                  <TrGroupComponent
+                    key="9"
+                  >
+                    <div
+                      className="rt-tr-group"
+                      role="rowgroup"
+                    >
+                      <TrComponent
+                        className="-padRow -even"
+                        style={Object {}}
+                      >
+                        <div
+                          className="rt-tr -padRow -even"
+                          role="row"
+                          style={Object {}}
+                        >
+                          <TdComponent
+                            className=""
+                            key="0-flavor"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="1-price"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="2-ingredients"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                          <TdComponent
+                            className=""
+                            key="3-delete"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              role="gridcell"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <span>
+                                 
+                              </span>
+                            </div>
+                          </TdComponent>
+                        </div>
+                      </TrComponent>
+                    </div>
+                  </TrGroupComponent>
+                </div>
+              </Tbody>
+            </div>
+          </TableComponent>
+          <div
+            className="pagination-bottom"
+          >
+            <ReactTablePagination
+              AggregatedComponent={[Function]}
+              ExpanderComponent={[Function]}
+              FilterComponent={[Function]}
+              LoadingComponent={[Function]}
+              NoDataComponent={[Function]}
+              PadRowComponent={[Function]}
+              PaginationComponent={[Function]}
+              PivotValueComponent={[Function]}
+              ResizerComponent={[Function]}
+              TableComponent={[Function]}
+              TbodyComponent={[Function]}
+              TdComponent={[Function]}
+              TfootComponent={[Function]}
+              ThComponent={[Function]}
+              TheadComponent={[Function]}
+              TrComponent={[Function]}
+              TrGroupComponent={[Function]}
+              aggregatedKey="_aggregated"
+              allDecoratedColumns={
+                Array [
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": undefined,
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": undefined,
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "id",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": false,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": [Function],
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": "Flavor",
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "flavor",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": [Function],
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": "Price",
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "price",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": [Function],
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": "Ingredients",
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "ingredients",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": undefined,
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": undefined,
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "active",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": false,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": [Function],
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": undefined,
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "delete",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                ]
+              }
+              allVisibleColumns={
+                Array [
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": [Function],
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": "Flavor",
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "flavor",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": [Function],
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": "Price",
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "price",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": [Function],
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": "Ingredients",
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "ingredients",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": [Function],
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": undefined,
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "accessor": [Function],
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "id": "delete",
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  },
+                ]
+              }
+              canNext={false}
+              canPrevious={false}
+              collapseOnDataChange={true}
+              collapseOnPageChange={true}
+              collapseOnSortingChange={true}
+              column={
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": undefined,
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": undefined,
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                }
+              }
+              columns={
+                Array [
+                  Object {
+                    "accessor": [Function],
+                    "id": "id",
+                    "show": false,
+                  },
+                  Object {
+                    "Cell": [Function],
+                    "Header": "Flavor",
+                    "accessor": [Function],
+                    "id": "flavor",
+                  },
+                  Object {
+                    "Cell": [Function],
+                    "Header": "Price",
+                    "accessor": [Function],
+                    "id": "price",
+                  },
+                  Object {
+                    "Cell": [Function],
+                    "Header": "Ingredients",
+                    "accessor": [Function],
+                    "id": "ingredients",
+                  },
+                  Object {
+                    "accessor": [Function],
+                    "id": "active",
+                    "show": false,
+                  },
+                  Object {
+                    "Cell": [Function],
+                    "accessor": [Function],
+                    "id": "delete",
+                  },
+                ]
+              }
+              currentlyResizing={false}
+              data={Array []}
+              defaultExpanded={Object {}}
+              defaultFilterMethod={[Function]}
+              defaultFiltered={Array []}
+              defaultPageSize={10}
+              defaultResized={Array []}
+              defaultSortDesc={false}
+              defaultSortMethod={[Function]}
+              defaultSorted={Array []}
+              expanded={Object {}}
+              expanderDefaults={
+                Object {
+                  "filterable": false,
+                  "resizable": false,
+                  "sortable": false,
+                  "width": 35,
+                }
+              }
+              filterable={false}
+              filtered={Array []}
+              freezeWhenExpanded={false}
+              frozen={false}
+              getLoadingProps={[Function]}
+              getNoDataProps={[Function]}
+              getPaginationProps={[Function]}
+              getProps={[Function]}
+              getResizerProps={[Function]}
+              getTableProps={[Function]}
+              getTbodyProps={[Function]}
+              getTdProps={[Function]}
+              getTfootProps={[Function]}
+              getTfootTdProps={[Function]}
+              getTfootTrProps={[Function]}
+              getTheadFilterProps={[Function]}
+              getTheadFilterThProps={[Function]}
+              getTheadFilterTrProps={[Function]}
+              getTheadGroupProps={[Function]}
+              getTheadGroupThProps={[Function]}
+              getTheadGroupTrProps={[Function]}
+              getTheadProps={[Function]}
+              getTheadThProps={[Function]}
+              getTheadTrProps={[Function]}
+              getTrGroupProps={[Function]}
+              getTrProps={[Function]}
+              groupedByPivotKey="_groupedByPivot"
+              hasHeaderGroups={false}
+              headerGroups={Array []}
+              indexKey="_index"
+              loading={false}
+              loadingText="Loading..."
+              multiSort={true}
+              nestingLevelKey="_nestingLevel"
+              nextText="Next"
+              noDataText="No rows found"
+              ofText="of"
+              onFetchData={[Function]}
+              onPageChange={[Function]}
+              onPageSizeChange={[Function]}
+              originalKey="_original"
+              page={0}
+              pageSize={10}
+              pageSizeOptions={
+                Array [
+                  5,
+                  10,
+                  20,
+                  25,
+                  50,
+                  100,
+                ]
+              }
+              pageText="Page"
+              pages={0}
+              pivotDefaults={Object {}}
+              pivotIDKey="_pivotID"
+              pivotValKey="_pivotVal"
+              previousText="Previous"
+              resizable={true}
+              resized={Array []}
+              resolveData={[Function]}
+              resolvedData={Array []}
+              rowsText="rows"
+              showPageJump={true}
+              showPageSizeOptions={true}
+              showPagination={true}
+              showPaginationBottom={true}
+              showPaginationTop={false}
+              skipNextSort={false}
+              sortable={true}
+              sorted={Array []}
+              sortedData={Array []}
+              subRowsKey="_subRows"
+            >
+              <div
+                className="-pagination"
+              >
+                <div
+                  className="-previous"
+                >
+                  <defaultButton
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="-btn"
+                      disabled={true}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Previous
+                    </button>
+                  </defaultButton>
+                </div>
+                <div
+                  className="-center"
+                >
+                  <span
+                    className="-pageInfo"
+                  >
+                    Page
+                     
+                    <div
+                      className="-pageJump"
+                    >
+                      <input
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onKeyPress={[Function]}
+                        type="number"
+                        value={1}
+                      />
+                    </div>
+                     
+                    of
+                     
+                    <span
+                      className="-totalPages"
+                    >
+                      1
+                    </span>
+                  </span>
+                  <span
+                    className="select-wrap -pageSizeOptions"
+                  >
+                    <select
+                      onChange={[Function]}
+                      value={10}
+                    >
+                      <option
+                        key="0"
+                        value={5}
+                      >
+                        5
+                         
+                        rows
+                      </option>
+                      <option
+                        key="1"
+                        value={10}
+                      >
+                        10
+                         
+                        rows
+                      </option>
+                      <option
+                        key="2"
+                        value={20}
+                      >
+                        20
+                         
+                        rows
+                      </option>
+                      <option
+                        key="3"
+                        value={25}
+                      >
+                        25
+                         
+                        rows
+                      </option>
+                      <option
+                        key="4"
+                        value={50}
+                      >
+                        50
+                         
+                        rows
+                      </option>
+                      <option
+                        key="5"
+                        value={100}
+                      >
+                        100
+                         
+                        rows
+                      </option>
+                    </select>
+                  </span>
+                </div>
+                <div
+                  className="-next"
+                >
+                  <defaultButton
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="-btn"
+                      disabled={true}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Next
+                    </button>
+                  </defaultButton>
+                </div>
+              </div>
+            </ReactTablePagination>
+          </div>
+          <NoData>
+            <div
+              className="rt-noData"
+            >
+              No rows found
+            </div>
+          </NoData>
+          <LoadingComponent
+            loading={false}
+            loadingText="Loading..."
+          >
+            <div
+              className="-loading"
+            >
+              <div
+                className="-loading-inner"
+              >
+                Loading...
+              </div>
+            </div>
+          </LoadingComponent>
+        </div>
+      </ReactTable>
+    </FlavorTable>
+    <Button
+      onClick={[Function]}
+      positive={true}
+      text="Add Flavor"
+    >
+      <Button__StyledButton
+        onClick={[Function]}
+        positive={true}
+      >
+        <StyledComponent
+          forwardedClass={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "Button__StyledButton-sc-1fkoyq4-0",
+                "isStatic": true,
+                "lastClassName": "jAcKQw",
+                "rules": Array [
+                  "background-color:",
+                  "#4caf50",
+                  ";border-radius:3px;color:white;padding:",
+                  "15px 32px",
+                  ";text-align:center;text-decoration:none;font-size:16px;margin:4px 2px;cursor:pointer;",
+                ],
+              },
+              "displayName": "Button__StyledButton",
+              "render": [Function],
+              "styledComponentId": "Button__StyledButton-sc-1fkoyq4-0",
+              "target": "button",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          positive={true}
+        >
+          <button
+            className="Button__StyledButton-sc-1fkoyq4-0 jAcKQw"
+            onClick={[Function]}
+          >
+            Add Flavor
+          </button>
+        </StyledComponent>
+      </Button__StyledButton>
+    </Button>
+  </div>
+</IceCreamMenu>
+`;

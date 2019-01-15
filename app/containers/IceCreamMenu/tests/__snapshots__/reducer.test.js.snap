@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`iceCreamMenuReducer handles the ADD_FLAVOR action 1`] = `
+Immutable.Map {
+  "flavorsById": Immutable.Map {
+    "0": Immutable.Map {
+      "id": "0",
+      "name": "vanilla",
+      "price": 4,
+      "ingredients": "vanilla bean, milk, sugar, cream",
+      "active": true,
+    },
+    "1": Immutable.Map {
+      "id": "1",
+      "name": "chocolate",
+      "price": 4,
+      "ingredients": "cocoa powder, milk, sugar, salt",
+      "active": true,
+    },
+    "uniqueStringThatsNotInDatabaseHopefully": Immutable.Map {
+      "id": "uniqueStringThatsNotInDatabaseHopefully",
+      "name": "I can't believe it's not cinammon",
+      "price": 4,
+      "ingredients": "cocoa powder, milk, sugar, salt",
+      "active": true,
+    },
+  },
+}
+`;
+
+exports[`iceCreamMenuReducer handles the delete flavor action 1`] = `
+Immutable.Map {
+  "flavorsById": Immutable.Map {
+    "1": Immutable.Map {
+      "id": "1",
+      "name": "chocolate",
+      "price": 4,
+      "ingredients": "cocoa powder, milk, sugar, salt",
+      "active": true,
+    },
+  },
+}
+`;
+
+exports[`iceCreamMenuReducer returns the initial state 1`] = `
+Immutable.Map {
+  "flavorsById": Immutable.Map {
+    "0": Immutable.Map {
+      "id": "0",
+      "name": "vanilla",
+      "price": 4,
+      "ingredients": "vanilla bean, milk, sugar, cream",
+      "active": true,
+    },
+    "1": Immutable.Map {
+      "id": "1",
+      "name": "chocolate",
+      "price": 4,
+      "ingredients": "cocoa powder, milk, sugar, salt",
+      "active": true,
+    },
+  },
+}
+`;
